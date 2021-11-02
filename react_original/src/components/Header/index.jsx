@@ -1,13 +1,12 @@
 import React, { Component } from 'react'
-import { Layout} from 'antd';
-const { Header} = Layout;
+import "./index.less"
 
-export default class PageHeader extends Component {
+export default class Header extends Component {
     render() {
         return (
-            <Header>
-                header...
-            </Header>
+            <div className="header">
+                header...   
+            </div>
         )
            
     }
